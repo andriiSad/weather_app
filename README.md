@@ -131,6 +131,6 @@ This is the starting point of the application.
 
 ### Conclusion
 
-It was a pleasure to complete this test task, I had the opportunity to remind myself of a lot of things that I just forgot in the process of studying. I know this app is not perfect, but I continue to study  and improve my skills every day. Thank you for your time, and waiting for a feedback 😊
+It was a pleasure to complete this test task, I had the opportunity to remind myself a lot of things that I just forgot in the process of studying. I know this app is not perfect, but I continue to study  and improve my skills every day. Thank you for your time, and waiting for a feedback 😊
 
 
