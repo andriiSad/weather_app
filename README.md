@@ -13,7 +13,7 @@ The WeatherApp contains implementation of test task provided by Steelkiwi. This 
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/andriySad/weather_app.git
+https://github.com/andriySad/weather_app_test_task.git
 ```
 
 **Step 2:**
