@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'constants/my_constants.dart';
 import 'providers/weather_provider.dart';
 import 'theme/theme.dart';
 import 'widgets/sections/footer.dart';
@@ -10,7 +11,11 @@ import 'widgets/sections/w_app_bar.dart';
 import 'widgets/sections/weather_widget.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MyConstants(
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatefulWidget {
@@ -29,11 +34,11 @@ class _MyAppState extends State<MyApp> {
     return ChangeNotifierProvider(
       create: (ctx) => WeatherProvider(),
       child: MaterialApp(
-        title: 'Weather App',
+        title: MyConstants.of(context)!.appName,
         theme: WAppTheme.lightTheme,
         darkTheme: WAppTheme.darkTheme,
         themeMode: _themeMode,
-        home: const MyHomePage(title: 'Weather App'),
+        home: MyHomePage(title: MyConstants.of(context)!.appName),
         debugShowCheckedModeBanner: false,
       ),
     );

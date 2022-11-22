@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/my_constants.dart';
 import '../../main.dart';
 
 class WAppBar extends StatelessWidget with PreferredSizeWidget {
@@ -17,7 +18,7 @@ class WAppBar extends StatelessWidget with PreferredSizeWidget {
     return AppBar(
       backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
       title: Text(
-        'Weather App',
+        MyConstants.of(context)!.appName,
         style: Theme.of(context).textTheme.titleLarge!.copyWith(
               color: Colors.white,
             ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/my_constants.dart';
 import '../city_card.dart';
 
 class PopularCititesWidget extends StatelessWidget {
@@ -21,7 +22,7 @@ class PopularCititesWidget extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Text(
-            'Check the weather in most popular cities in the world',
+            MyConstants.of(context)!.popularCitiesSectionName,
             style: Theme.of(context).textTheme.titleLarge,
             textAlign: TextAlign.center,
           ),
