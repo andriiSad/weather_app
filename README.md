@@ -1,10 +1,10 @@
 ### Weather App Project
 
-A WeatherApp project created in Flutter for Steelkiwi Flutter Internship test task.
+A WeatherApp project created in Flutter.
 
 ## Getting Started
 
-The WeatherApp contains implementation of test task provided by Steelkiwi. This application allows you to view information about the weather in all cities, that are present in [OpenWeather API](https://openweathermap.org/api).
+The WeatherApp allows you to view information about the weather in all cities, that are present in [OpenWeather API](https://openweathermap.org/api).
 
 ### How to Use 
 
@@ -13,7 +13,7 @@ The WeatherApp contains implementation of test task provided by Steelkiwi. This 
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/andriySad/weather_app_test_task.git
+https://github.com/andriySad/weather_app.git
 ```
 
 **Step 2:**
